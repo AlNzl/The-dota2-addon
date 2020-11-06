@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="action_hero">
+            <field name="name">Heroes</field>
+            <field name="res_model">game.heroes</field>
+
+            <field name="view_mode">kanban,form,tree,graph</field>
+
+        </record>
+
+        <record id="hero_form" model="ir.ui.view">
+            <field name="name">game.heroes.form</field>
+            <field name="model">game.heroes</field>
+            <field name="arch" type="xml">
+
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="hero_name"/>
+                                <field name="hero_side"/>
+                                <field name="hero_attribute"/>
+                                <field name="hero_role"/>
+                            </group>
+                            <group>
+                                <field name="picks_per_day"/>
+                                <field name="picks_per_day_previous_patch"/>
+                                <field name="win_rate"/>
+                                <field name="pick_rate_coefficient"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hero_graph" model="ir.ui.view">
+            <field name="name">game.heroes.graph</field>
+            <field name="model">game.heroes</field>
+            <field name="arch" type="xml">
+                <graph string="Heroes graph">
+                    <field name="win_rate"/>
+                    <field name="hero_name"/>
+                    <field name="hero_role"/>
+
+
+                </graph>
+            </field>
+        </record>
+        <record id="hero_tree" model="ir.ui.view">
+            <field name="name">game.heroes.tree</field>
+            <field name="model">game.heroes</field>
+            <field name="arch" type="xml">
+                <tree string="Heroes">
+                    <field name="hero_name"/>
+                    <field name="hero_side"/>
+                    <field name="hero_attribute"/>
+                    <field name="hero_role"/>
+                    <field name="picks_per_day"/>
+                    <field name="picks_per_day_previous_patch"/>
+                    <field name="win_rate"/>
+                    <field name="pick_rate_coefficient"/>
+
+
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="hero_kanban_view" model="ir.ui.view">
+            <field name="name">game.heroes.kanban</field>
+            <field name="model">game.heroes</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="id"/>
+                    <field name="hero_name"/>
+                    <field name="hero_side"/>
+                    <field name="hero_attribute"/>
+
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click">
+
+                                <div class="oe_kanban_details">
+                                    <strong class="o_kanban_record_title">
+                                        <h4>
+                                            <b>
+                                                <i>Hero name:</i>
+                                            </b>
+                                            <field name="hero_name"/>
+                                        </h4>
+                                    </strong>
+                                    <div t-if="record.hero_side.value">
+
+                                        <h4>
+                                            <b>
+                                                <i>Hero side:</i>
+                                            </b>
+                                            <t t-esc="record.hero_side.value"/>
+                                        </h4>
+                                    </div>
+
+                                </div>
+                                <div t-if="record.hero_attribute.value">
+                                    <h4>
+                                        <b>
+                                            <i>Hero attribute :</i>
+                                        </b>
+                                        <t t-esc="record.hero_attribute.value"/>
+                                    </h4>
+
+                                </div>
+                            </div>
+                        </t>
+
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_event_search">
+            <field name="name">game.heroes.search</field>
+            <field name="model">game.heroes</field>
+            <field name="arch" type="xml">
+                <search string="Filters">
+                    <filter string="Win rate &lt; 45" name="Less" domain="[('win_rate', '&lt;', 45)]"/>
+                    <filter string="Win rate &gt;= 45 " name="MoreOrEqual" domain="[('win_rate', '&gt;=', 45)]"/>
+                    <separator/>
+                    <filter string="Carry" name="Cor" domain="[('hero_role', '=', 'Carry')]"/>
+                    <filter string="Midlaner" name="Mid" domain="[('hero_role', '=', 'Midlaner')]"/>
+                    <filter string="Offlaner" name="Off" domain="[('hero_role', '=', 'Offlaner')]"/>
+                    <filter string="Support" name="Sup" domain="[('hero_role', '=', 'Support')]"/>
+                    <separator/>
+                    <filter string="Pick rate &lt; 200000" name="Less" domain="[('picks_per_day', '&lt;', 200000)]"/>
+                    <filter string="Pick rate &gt;= 200000 " name="Less" domain="[('picks_per_day', '&gt;=', 200000)]"/>
+                    <group expand="0" string="Group By">
+                        <filter string="Attribute" name="attr" context="{'group_by': 'hero_attribute'}"/>
+                        <filter string="Side" name="side" context="{'group_by': 'hero_side'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+        <menuitem name="Hero menu" id="menu_main" sequence="1" action="action_hero"/>
+
+    </data>
+</odoo>

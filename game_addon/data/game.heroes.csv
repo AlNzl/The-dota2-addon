@@ -1,0 +1,113 @@
+id,hero_name,hero_side,picks_per_day,picks_per_day_previous_patch,hero_role,hero_attribute,win_rate
+0,Anti-Mage,Radiant,254671,227671,Carry,Agility,53
+1,Axe,Dire,352121,329241,Offlaner,Strength,46
+2,Bane,Dire,121471,147221,Support,Intelligence,46
+3,Bloodseeker,Dire,291171,241241,Carry,Agility,48
+4,Crystal Maiden,Radiant,114411,117651,Support,Intelligence,42
+5,Drow Ranger,Radiant,451471,397251,Carry,Agility,51
+6,Earthshaker,Radiant,300241,310621,Support,Strength,45
+7,Juggernaut,Radiant,314591,250171,Carry,Agility,46
+8,Mirana,Radiant,153661,135890,Carry,Agility,44
+9,Shadow Fiend,Dire,454121,400121,Midlaner,Agility,49
+10,Morphling,Radiant,413321,425271,Midlaner,Agility,57
+11,Phantom Lancer,Radiant,183221,175221,Carry,Agility,46
+12,Puck,Radiant,133221,125411,Midlaner,Intelligence,44
+13,Pudge,Dire,534121,522551,Midlaner,Strength,41
+14,Razor,Radiant,102981,100121,Carry,Agility,45
+15,Sand King,Dire,146251,175567,Offlaner,Strength,46
+16,Storm Spirit,Radiant,257812,280124,Midlaner,Intelligence,51
+17,Sven,Radiant,221347,241842,Carry,Strength,48
+18,Tiny,Radiant,124512,126722,Carry,Strength,43
+19,Vengeful Spirit,Radiant,145421,135412,Support,Agility,45
+20,Windranger,Radiant,282214,275241,Midlaner,Intelligence,49
+21,Zeus,Radiant,242219,225256,Midlaner,Intelligence,47
+22,Kunkka,Radiant,243225,245222,Midlaner,Strength,46
+23,Lina,Radiant,257810,241292,Midlaner,Intelligence,49
+24,Lich,Dire,103455,106224,Support,Intelligence,43
+25,Lion,Dire,143490,156901,Support,Intelligence,47
+26,Shadow Shaman,Dire,101455,102224,Support,Intelligence,46
+27,Slardar,Dire,141425,142249,Offlaner,Strength,46
+28,Tidehunter,Dire,155433,162242,Offlaner,Strength,44
+29,Witch Doctor,Dire,121445,129279,Support,Intelligence,43
+30,Riki,Dire,342445,331255,Carry,Agility,45
+31,Enigma,Dire,131255,151251,Offlaner,Strength,47
+32,Tinker,Radiant,287225,272909,Midlaner,Intelligence,48
+33,Sniper,Radiant,325622,351989,Midlaner,Agility,50
+34,Necrophos,Dire,127525,131259,Midlaner,Intelligence,49
+35,Warlock,Dire,107225,101249,Support,Intelligence,42
+36,Beastmaster,Dire,157244,165332,Offlaner,Strength,48
+37,Queen of Pain,Dire,223245,221119,Midlaner,Intelligence,51
+38,Venomancer,Dire,147225,141655,Support,Intelligence,44
+39,Faceless Void,Radiant,224425,256229,Carry,Agility,51
+40,Skeleton King,Dire,227425,231119,Carry,Agility,46
+41,Death Prophet,Dire,217425,191339,Midlaner,Intelligence,48
+42,Phantom Assassin,Radiant,247885,240112,Carry,Agility,51
+43,Pugna,Dire,197625,181250,Midlaner,Intelligence,46
+44,Templar Assassin,Radiant,277225,261659,Midlaner,Agility,52
+45,Viper,Dire,167225,171459,Midlaner,Agility,44
+46,Luna,Radiant,173425,161629,Carry,Agility,47
+47,Dragon Knight,Radiant,200225,198623,Midlaner,Strength,49
+48,Dazzle,Dire,126241,131845,Support,Agility,44
+49,Clockwerk,Radiant,236124,228779,Offlaner,Strength,47
+50,Leshrac,Radiant,187215,199124,Midlaner,Intelligence,48
+51,Nature's Prophet,Radiant,150232,157811,Offlaner,Intelligence,50
+52,Lifestealer,Dire,220543,240589,Carry,Strength,51
+53,Dark Seer,Dire,146124,142512,Offlaner,Agility,49
+54,Clinkz,Dire,222235,245151,Carry,Agility,46
+55,Omniknight,Radiant,120412,124441,Offlaner,Strength,45
+56,Enchantress,Radiant,223981,224215,Support,Intelligence,46
+57,Huskar,Dire,125121,124241,Carry,Strength,43
+58,Night Stalker,Dire,189141,178412,Offlaner,Strength,45
+59,Broodmother,Dire,101313,105414,Midlaner,Agility,54
+60,Bounty Hunter,Radiant,123341,124514,Support,Agility,45
+61,Weaver,Radiant,134141,128614,Offlaner,Agility,47
+62,Jakiro,Dire,124321,122941,Support,Intelligence,45
+63,Batrider,Dire,178131,169124,Offlaner,Intelligence,47
+64,Chen,Radiant,131151,128754,Support,Intelligence,44
+65,Spectre,Dire,125121,124241,Carry,Agility,46
+66,Ancient Apparition,Dire,121414,124512,Support,Intelligence,44
+67,Doom,Dire,171122,189414,Offlaner,Strength,49
+68,Ursa,Radiant,154124,158134,Carry,Agility,47
+69,Spirit Breaker,Dire,141172,143951,Offlaner,Strength,44
+70,Gyrocopter,Radiant,154214,148751,Carry,Agility,47
+71,Alchemist,Dire,256141,253512,Midlaner,Strength,46
+72,Invoker,Radiant,289145,279524,Midlaner,Intelligence,43
+73,Silencer,Radiant,138542,137521,Support,Intelligence,46
+74,Outworld Devourer,Dire,184124,174124,Midlaner,Intelligence,46
+75,Lycanthrope,Dire,204425,203412,Carry,Strength,46
+76,Brewmaster,Radiant,175252,169952,Offlaner,Strength,47
+77,Shadow Demon,Dire,130512,124566,Support,Intelligence,48
+78,Lone Druid,Radiant,120414,128551,Midlaner,Agility,49
+79,Chaos Knight,Radiant,120452,125252,Carry,Strength,45
+80,Meepo,Radiant,150252,156935,Midlaner,Agility,49
+81,Treant Protector,Radiant,167425,165257,Support,Strength,46
+82,Ogre Magi,Dire,167852,165852,Support,Intelligence,47
+83,Undying,Dire,158927,157251,Support,Strength,46
+84,Rubick,Radiant,205125,208512,Support,Intelligence,48
+85,Disruptor,Radiant,160525,158252,Support,Intelligence,44
+86,Nyx Assassin,Dire,140652,147251,Support,Intelligence,46
+87,Naga Siren,Radiant,205151,206525,Carry,Agility,46
+88,Keeper of the Light,Radiant,126712,130515,Support,Intelligence,44
+89,Wisp,Radiant,140251,138512,Support,Strength,45
+90,Visage,Dire,150215,153590,Midlaner,Intelligence,44
+91,Slark,Dire,245125,250141,Carry,Agility,46
+92,Medusa,Dire,190151,192441,Carry,Agility,45
+93,Troll Warlord,Dire,178415,169512,Carry,Agility,44
+94,Centaur Warrunner,Dire,170512,172152,Offlaner,Strength,46
+95,Magnus,Radiant,190636,195623,Midlaner,Strength,45
+96,Timbersaw,Dire,200578,195762,Offlaner,Intelligence,46
+97,Bristleback,Dire,186396,187552,Offlaner,Strength,48
+98,Tusk,Dire,185915,176036,Support,Strength,47
+99,Skywrath Mage,Radiant,220516,215862,Support,Intelligence,47
+100,Abaddon,Dire,129566,127525,Support,Strength,44
+101,Elder Titan,Radiant,160336,163590,Support,Strength,45
+102,Legion Commander,Radiant,220569,235895,Offlaner,Strength,47
+103,Ember Spirit,Radiant,190581,189518,Midlaner,Agility,44
+104,Earth Spirit,Dire,150762,147590,Support,Strength,43
+105,Abyssal Underlord,Dire,175992,175121,Offlaner,Strength,48
+106,Terrorblade,Dire,230586,228951,Carry,Agility,47
+107,Phoenix,Radiant,210515,208756,Offlaner,Strength,44
+108,Techies,Dire,180686,178581,Support,Intelligence,40
+109,Oracle,Radiant,160565,172515,Support,Intelligence,45
+110,Winter Wyvern,Radiant,146801,142895,Support,Intelligence,45
+111,Arc Warden,Dire,165902,162512,Midlaner,Intelligence,45
